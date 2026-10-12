@@ -1,0 +1,44 @@
+# Local environment and secrets (keep examples in Git)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local SQLite data, journals and backups
+data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Frontend dependencies and generated output
+node_modules/
+dist/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Logs and local editor / OS files
+*.log
+.DS_Store
+._*
+.idea/
+*.swp
+*.swo
+*~
+
+# Keep package-lock.json and requirements.txt committed.
